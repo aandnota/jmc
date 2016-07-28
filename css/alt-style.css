@@ -153,10 +153,35 @@ html, body{
 	align-items: center;
 }
 
+.banner-image-pro{
+	width: 100%;
+	height: 30vw;
+	background-image: url("../imgs/puppies.png");
+	background-color: #4a90e2;
+	background-position: center -400px;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
 .banner-image-alumni{
 	width: 100%;
 	height: 30vw;
 	background-image: url("../imgs/alumni/mildredbrown30.png");
+	background-color: #4A90E2;
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.banner-image-prosp{
+	width: 100%;
+	height: 30vw;
+	background-image: url("../imgs/prosp-stu.png");
 	background-color: #4A90E2;
 	background-position: center;
 	background-size: cover;
@@ -177,15 +202,20 @@ html, body{
 	font-size: 6rem;
 	font-weight: 400;
 	color: #fff;
+	line-height: .95;
 }
 
 .banner-text p {
 	font-style: italic;
 	font-weight: 600;
-	color: #444444;
+	color: #333;
 	font-size: 1.25em;
 }
 
+#banner-text-prosp{
+	color: #E6E6E6;
+	margin-top: 3rem;
+}
 
 
 /*SLIDER AREA*/
@@ -205,7 +235,7 @@ html, body{
 	font-size: 3rem;
 	margin-bottom: 0;
 	margin-top: 0;
-}
+}@
 
 #text-slider{
 	padding: 10vw 0;
@@ -309,7 +339,7 @@ html, body{
 
 .big-square-alt{
 	width: 50%;
-	background-color: #4a90e2;
+	background-color: #e2b754;
 	background-image: url("../imgs/ccas-seal.png");
 	background-position: center center;
 	display: flex;
@@ -357,6 +387,15 @@ html, body{
 	margin-bottom: .5rem;
 	color: #444444;
 	font-style: italic;
+}
+
+p#prosp-text{
+	font-size: 1.35rem;
+	
+}
+
+p#prosp-text-sec{
+	color: #333333;
 }
 
 div#squ-img{
@@ -408,13 +447,38 @@ div#squ-img-ig{
 }
 
 #sq3 p{
-	font-size: 2rem;
+	font-size: 3rem;
 	color: #fff;
-	font-weight: 600;
+	font-weight: 400;
+	font-style: italic;
+}
+
+#sq3 a{
+	color: #CCCCCC;
+}
+
+#sq3 a:hover{
+	color: #4a90e2;
 }
 
 #sq4{
 	background-color: #191919;
+}
+
+#sq4 h3{
+	color: #E6E6E6;
+	font-weight: 600;
+	font-size: 1.5rem;
+	margin-bottom: .75rem;
+}
+
+#sq4 p{
+	color: #fff;
+	width: 80%;
+	font-size: 1rem;
+	font-style: italic;
+	font-weight: 300;
+	display: inline;
 }
 
 .small-squares{
@@ -427,11 +491,47 @@ div#squ-img-ig{
 	display: flex;
 }
 
+.rect-pro{
+	background-color: #CCCCCC;
+	width: 100%;
+	height: 25vw;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.rect-pro h3{
+	font-weight: 600;
+	font-size: 2rem;
+	margin-bottom: .75rem;
+}
+
+.rect-pro p{
+	width: 100%;
+	font-style: italic;
+	font-size: 1.5rem;
+	color: #7F7F7F;
+	margin-top: .5rem;
+}
+
 .squ{
 	width: 50%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+.squ-prosp{
+	width: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#squ-prosp-content{
+	display: inline;
+	width: 80%;
 }
 
 #squ1{
