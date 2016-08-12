@@ -4,13 +4,25 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
+
 
 	<title>The Department of Journalism, Media &amp; Computing</title>
 
 	<!-- stylesheet -->
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/sss.css">	
+	<link rel="stylesheet" href="css/jquery.bxslider.css">
+
+	<!-- JS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="js/jquery.bxslider.js"></script>
+	<script src="js/script.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.bxslider').bxSlider();
+		})
+	</script>
+	
 </head>
 
 
@@ -24,7 +36,7 @@
 			<ul id="dept-title-mobile">
 				<li><a href="index.html"></a>JM&amp;C</li>
 			</ul>
-			
+
 			<ul class="nav-links-little">
 				<li id="nav-link"><a href="pages/majors.html" title="Majors">Majors</a></li>
 				<li id="nav-link"><a href="pages/prospective.html" title="Prospective Students">Prospective Students</a></li>
@@ -32,11 +44,11 @@
 			</ul>
 		</nav>
 	</div>
-	
+
 	<div class="slider-big">
-		<div class="slider">
+		<div class="bxslider">
 			<div>
-				<div id="img-one">				
+				<div id="img-one">
 					<span class="caption">
 						<h2>Mother Kuskoskwim wins big!</h2>
 						<p>Latest Backpack Journalism documentary wins numerous awards at national film festivals.</p>
@@ -45,7 +57,7 @@
 			</div>
 
 			<div>
-				<div id="img-two">				
+				<div id="img-two">
 					<span class="caption">
 						<h2>Puppies &amp; Brownies</h2>
 						<p>Monday, February 29th, - Join us for JM&amp;C's famous furry stress reliever!</p>
@@ -54,20 +66,20 @@
 			</div>
 
 			<div>
-				<div id="img-three">				
+				<div id="img-three">
 					<span class="caption">
 						<h2>Backpack Journalism went to Nogales</h2>
 						<p><a href="http://cubackpack.org/category/arizona2016">Read about this summer's Backpack Journalism trip</a> to Nogales, AZ, and help make a film about about the U.S. and Mexican border, the people who live there and the migrants who are passing through.</p>
 					</span>
 				</div>
 			</div>
-		</div>	
+		</div>
 	</div>
 
 	<div class="slider-small">
 		<div class="slider">
 			<div>
-				<div id="img-one">				
+				<div id="img-one">
 					<span class="caption">
 						<h2>Mother Kuskoskwim wins an award</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -76,12 +88,12 @@
 				</div>
 
 			</div>
-		</div>	
+		</div>
 	</div>
-	
+
 	<section class="area-two">
 
-		<div class="content">	
+		<div class="content">
 			<div class="first">
 				<ul id="first-line">
 					<li id="jmc">J</li>
@@ -89,7 +101,7 @@
 					<li id="jmc">&amp;</li>
 					<li id="jmc">C</li>
 				</ul>
-				
+
 				<div id="a-links-block">
 					<ul id="area-two-sub-menu">
 						<li><a href="https://admissions.creighton.edu/admissions-information/scholarships">Scholarships</a></li>
@@ -123,7 +135,7 @@
 					</li>
 				</ul>
 			</div>
-			
+
 			<div class="second">
 				<ul id="address-box">
 					<li><p>Journalism, Media &amp; Computing</p></li>
@@ -161,9 +173,9 @@
 
 						<p>Within the majors and tracks, students build on this broad understanding to specialize in majors in Journalism (with tracks in Advertising, News, and Public Relations), Graphic Design & Media (with tracks in Graphics Design and Multimedia & Photojournalism), and Computer Science & Informatics (with tracks in Computer Science and Digital Development).
 						</p>
-						
+
 						<p>The Department of Journalism, Media and Computing is committed to providing students with the ethical foundation, latest tools and methodologies, collaborative learning experiences and opportunities outside the classroom to apply their knowledge and skills.</p>
-					</li>	
+					</li>
 				</ul>
 			</div>
 		</div>
@@ -205,8 +217,8 @@
 						<p>2014 - An award-winning documentary by Creighton's Backpack Journalism program. Mother Kuskokwim is a film about the people who live in the remote Yukon-Kuskokwim River Delta of Southwest Alaska. Here the native Yup’ik people continue to practice a subsistence lifestyle in a region suffering from severe economic hardship and climate change.</p>
 					</li>
 
-					<li>	
-						<h4>Mato Oput</h4>				
+					<li>
+						<h4>Mato Oput</h4>
 						<video src="media/matooput-HD.mp4" loop controls poster="imgs/matooput.jpg"></video>
 						<p>2011 - An award-winning documentary by Creighton's Backpack Journalism program. Mato Oput follows the efforts of Church leaders in Northern Uganda to help rebuild their society after decades of civil war and terrible violence.</p>
 					</li>
@@ -234,7 +246,7 @@
 							<li><a href="">Creightonian</a></li>
 						</ul>
 					</li>
-					
+
 
 				</ul>
 				<div class="footer-map">
@@ -254,20 +266,5 @@
 
 </body>
 
-	<!-- JS -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-	<script src="js/sss.js"></script>
-	<script src="js/script.js"></script>
 
-	<script type="text/javascript">	
-		jQuery(function($) {
-			$('.slider').sss({
-				showNav:true,
-				speed: 6000,
-				startOn: 0,
-				transition: 500,
-				arrows: 0,
-			});
-		});
-	</script>
 </html>

@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	
+
 	$('a').click(function(){
 	    $('html, body').animate({
 	        scrollTop: $( $.attr(this, 'href') ).offset().top}, 500);
@@ -14,7 +14,7 @@ $(document).ready(function() {
 	$(window).scroll(function() {
 		if($(document).scrollTop() > 50) {
 			$('.nav-span').css({
-				'background-color': '#4C4C4C',
+				'background-color': '#191919',
 				'background-image': 'url(imgs/ccas-seal.png)',
 			});
 		} else {
