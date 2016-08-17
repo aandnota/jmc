@@ -1692,6 +1692,8 @@ div#adv{
 	color: #4A90E2;
 }
 
+/*RESPONSIVE TWEAKS*/
+
 @media (max-width: 1200px) {
 	.nav-span{
 		padding-bottom: 2rem;
