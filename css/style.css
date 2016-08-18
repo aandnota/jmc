@@ -21,7 +21,7 @@ a:hover{
 ul{
 	padding:0;
 	margin:0;
-	list-style-type: none;
+	list-style-type: none; 
 }
 
 /*END GLOBAL RESETS*/
@@ -1400,6 +1400,12 @@ span.caption a:hover{
 	padding-left: 2.5rem;
 }
 
+#teaching h3{
+	font-style: italic;
+	font-weight: 300;
+	font-size: 1.5rem;
+}
+
 #teaching-mark{
 	display: inline;
 	padding-left: 2.5rem;
@@ -1438,16 +1444,15 @@ span.caption a:hover{
 	padding-left: 2rem;
 }
 
-
-
 #teaching>li{
-	width: 49%;
+	width: 32%;
 }
 
 #teaching>li>p{
 	margin-top: .25rem;
 	font-size: 1rem;
 	margin-bottom: 0;
+	padding-top: .5rem;
 }
 
 #teaching-two{
@@ -1493,7 +1498,7 @@ span.caption a:hover{
 }
 
 #teaching-two>li{
-	width: 49%;
+	width: 32%;
 }
 
 #teaching-two>li>p{
