@@ -21,7 +21,7 @@ a:hover{
 ul{
 	padding:0;
 	margin:0;
-	list-style-type: none; 
+	list-style-type: none;
 }
 
 /*END GLOBAL RESETS*/
@@ -524,13 +524,13 @@ ul#tab li section>p{
 .fac-profiles img{
 	background-color: #4A90E2;
 	width: 100%;
-	filter: hue-rotate(0deg) opacity(100%);
-	-webkit-filter: hue-rotate(0deg)  opacity(100%);
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
 }
 
 .fac-profiles img:hover{
-	filter: hue-rotate(180deg);
-	-webkit-filter:   hue-rotate(180deg);
+	filter: grayscale(0);
+	-webkit-filter:   grayscale(0);
 }
 
 .fac-profiles>li>a{
@@ -563,13 +563,13 @@ ul#tab li section>p{
 .fac-profiles-gde img{
 	background-color: #4A90E2;
 	width: 100%;
-	filter: hue-rotate(0deg) opacity(100%);
-	-webkit-filter: hue-rotate(0deg)  opacity(100%);
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
 }
 
 .fac-profiles-gde img:hover{
-	filter: hue-rotate(180deg);
-	-webkit-filter:   hue-rotate(180deg);
+	filter: hue-rotate(0);
+	-webkit-filter:   hue-rotate(0);
 }
 
 .fac-profiles-gde>li>a{
