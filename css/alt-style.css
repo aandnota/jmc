@@ -491,8 +491,37 @@ div#squ-img-ig{
 	display: inline;
 }
 
+
+#sq-apply{
+	background-color: #e6e6e6;
+}
+
+#sq-apply2{
+	background-color: #b3b3b3;
+}
+
+#sq-apply3{
+	background-color: #999999;
+}
+
+#sq-apply4 p{
+	width: 90%;
+}
+
+#sq-apply4{
+	background-color:#ff6666;
+}
+
+
 .small-squares{
 	width: 50%;
+}
+
+.small-squares-apply{
+	width: 50%;
+	height: 50vw;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .rect{
@@ -530,6 +559,27 @@ div#squ-img-ig{
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+
+.squ-apply{
+	width: 50%;
+	height: 25vw;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	justify-content: center;
+	padding: 1rem 0;
+}
+
+.squ-apply h4{
+	padding-right: 1.5rem;
+	font-size: 5rem;
+	font-weight: 400;
+}
+
+.squ-apply p{
+	font-size: 1.0vw;
+	width: 70%;
 }
 
 .squ-prosp{
@@ -630,37 +680,36 @@ div#squ-img-ig{
 		padding: 2rem 0;
 	}
 
-	.small-squares{
+	.small-squares-apply{
 		width: 100%;
 	}
 
-.squ-hide{
-		display: none;
-	}
-
-	#sq5{
-		display: flex;
-		background-color: #0080ff;
-	}
-
-	#squ-img-all{
-		display: flex;
+	.squ-apply{
 		width: 100%;
-		justify-content: center;
-		align-items: center;
-
+		height: 50vw;
 	}
 
-	#squ-img-all a{
-		width: 32%;
-		text-align: center;
+	.squ-apply p{
+		font-size: 4vw;
 	}
 
-	#squ-img-all>a>img{
-		width: 50%;
+}
+
+@media (max-width: 450px){
+
+	.banner-text{
+		width: 90%;
 	}
 
-	#insta{
-		filter: invert(100%);
+	.banner-text h2{
+		font-size: 2.75rem;
+	}
+
+	#bg-sq-text-alt{
+		width: 90%;
+	}
+
+	#bg-sq-text-alt p{
+		font-size: 1.25vmin;
 	}
 }
