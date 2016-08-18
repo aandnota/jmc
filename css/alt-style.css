@@ -564,7 +564,11 @@ div#squ-img-ig{
 	background-color: #808080;
 }
 
-#squ5{
+#sq5{
+	display: none;
+}
+
+#squ-img-all{
 	display: none;
 }
 
