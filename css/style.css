@@ -235,7 +235,7 @@ ul{
 	font-style: italic;
 	font-weight: 400;
 	color: #fff;
-	font-size: 4rem;
+	font-size: 3.5vw;
 	margin: 0;
 	padding: 1rem 0;
 	width: 30%;
@@ -1811,6 +1811,7 @@ div#adv{
 
 	.page-title-f h1{
 		width: 30%;
+		/*font-size: 1.5vw;*/
 	}
 
 	.prog-links-f {
@@ -1875,7 +1876,7 @@ div#adv{
 	}*/
 
 	#nav-link{
-		width: 33.3333%;
+		width: 32%;
 		padding-right: 0;
 	}
 
@@ -2000,7 +2001,7 @@ div#adv{
 	}
 
 	.majors>h1{
-		font-size: 3rem;
+		font-size: 5vw;
 	}
 
 	.prog-links-f{
