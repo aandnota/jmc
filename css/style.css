@@ -1864,7 +1864,7 @@ div#adv{
 
 	#dept-title-mobile{
 		display: inline;
-		width: 40%;
+		width: 30%;
 	}
 
 	#dept-title-mobile>li{
@@ -1877,7 +1877,12 @@ div#adv{
 
 	#nav-link{
 		width: 32%;
-		padding-right: 0;
+		padding-right: 1rem;
+		line-height: 1.1rem;
+	}
+
+	.nav-links-little-o{
+		width: 65%;
 	}
 
 	.nav-links-little{
@@ -2043,6 +2048,16 @@ div#adv{
 		background-position: right center;
 	}
 
+	.core{
+		flex-wrap: wrap;
+	}
+
+	.gde-core{
+		width: 100%;
+		padding-bottom: 1rem;
+		margin-bottom: 1rem;
+	}
+
 }
 
 @media (max-width: 400px) {
@@ -2184,5 +2199,9 @@ div#adv{
 
 	#find-us>p>a{
 		color: #fff;
+	}
+
+	.prog-links-f{
+		width: 70%;
 	}
 }
