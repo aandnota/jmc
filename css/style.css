@@ -1697,6 +1697,11 @@ div#adv{
 	color: #4A90E2;
 }
 
+#minor-select{
+	font-style: italic;
+	padding: 1rem 0;
+}
+
 /*RESPONSIVE TWEAKS*/
 
 @media (max-width: 1200px) {
