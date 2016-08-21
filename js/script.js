@@ -29,9 +29,12 @@ $(document).ready(function() {
 		$("#x-alu").toggle('500');
 	});
 
-
 	$(".toggle").click(function() {
 		$("#x-3d").toggle('500');
+	});
+
+	$("#program-button").click(function(){
+		$(".prog-links-f").slideToggle('500')
 	});
 
 });

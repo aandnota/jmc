@@ -237,8 +237,15 @@ ul{
 	color: #fff;
 	font-size: 3.5vw;
 	margin: 0;
-	padding: 1rem 0;
 	width: 30%;
+}
+
+.fac-menu{
+	width: 100%;
+	padding: 1rem 0;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
 .page-title-f a{
@@ -248,6 +255,10 @@ ul{
 
 .page-title-f a:hover{
 	color: #444444;
+}
+
+#program-button{
+	display: none;
 }
 
 .prog-links-f{
@@ -512,7 +523,7 @@ ul#tab li section>p{
 }
 
 .fac-profiles>li{
-	width: 25%;
+	width: 33.3333%;
 
 }
 
@@ -1704,6 +1715,8 @@ div#adv{
 
 /*RESPONSIVE TWEAKS*/
 
+/*DESKTOP*/
+
 @media (max-width: 1200px) {
 	.nav-span{
 		padding-bottom: 2rem;
@@ -1711,6 +1724,18 @@ div#adv{
 
 	#dept-title-big{
 		font-size: 2rem;
+	}
+
+	.page-title-f h1{
+		width: 25%;
+	}
+
+	.prog-links-f{
+		width: 75%;
+	}
+
+	.prog-links-f>li{
+		font-size: 1rem;
 	}
 }
 
@@ -1815,12 +1840,16 @@ div#adv{
 	/*FACULTY OVERVIEW*/
 
 	.page-title-f h1{
-		width: 30%;
-		/*font-size: 1.5vw;*/
+		width: 70%;
+		font-size: 2rem;
 	}
 
 	.prog-links-f {
-		width: 70%;
+		width: 100%;
+	}
+
+	#program-button{
+		display: none;
 	}
 
 	#blank-profile{
@@ -1828,7 +1857,7 @@ div#adv{
 	}
 
 	.fac-profiles>li{
-		width: 33%;
+		width: 33.333%;
 	}
 
 	/*FACULTY PAGES*/
@@ -1851,6 +1880,8 @@ div#adv{
 	    margin: 0;
 	}
 }
+
+/*TABLET*/
 
 @media (max-width: 850px) {
 	.nav-span{
@@ -1979,7 +2010,32 @@ div#adv{
 	.prog-links-f>li{
 		font-size: .85rem;
 	}
+
+	#program-button{
+		display: inline;
+		border: 1px solid #fff;
+		font-size:1.5rem;
+		font-style: italic;
+		font-weight: 300;
+		width: 15%;
+		color: #fff;
+		text-align: center;
+	}
+
+	.prog-links-f{
+		width: 100%;
+		display: none;
+		justify-content: space-between;
+	}
+
+	.prog-links-f>li{
+		width: 100%;
+		padding: .5rem 0;
+		font-size: 1.5rem;
+	}
 }
+
+/*BIG PHONES*/
 
 @media (max-width: 610px){
 	.content{
@@ -2014,15 +2070,12 @@ div#adv{
 		font-size: 5vw;
 	}
 
-	.prog-links-f{
-		width: 60%;
-		display: flex;
-		justify-content: space-between;
+	.page-title-f{
+		padding-bottom: .75rem;
 	}
 
-	.prog-links-f>li{
-		width: 33.3333%;
-		padding-left: 0;
+	#program-button{
+		width: 25%;
 	}
 
 	#prog-title-majors{
@@ -2152,6 +2205,36 @@ div#adv{
 
 	.resp-video>li>p{
 		font-size: 1rem;
+	}
+
+	.fac-profiles{
+		display: inline;
+	}
+
+	.fac-profiles>li{
+		width: 100%;
+		padding-bottom: 1rem;
+	}
+
+	.fac-profiles>li p{
+		font-size: 1.25rem;
+	}
+
+	.fac-profiles-gde{
+		display: inline;
+	}
+
+	.fac-profiles-gde>li {
+		width: 100%;
+		padding-bottom: 1rem;
+	}
+
+	.fac-profiles-gde>li p{
+		font-size: 1.25rem;
+	}
+
+	.page-title-f h1{
+		font-size: 2rem;
 	}
 
 
