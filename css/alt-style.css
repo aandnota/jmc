@@ -233,7 +233,7 @@ html, body{
 
 #text-slide{
 	width: 70%;
-	text-align: center;
+	text-align: left;
 	margin: 0 auto;
 }
 
@@ -249,6 +249,10 @@ html, body{
 	background-position: center center;
 	background-size: cover;
 	background-color: #4A90E2;
+}
+
+.text-slider p{
+	text-align: left;
 }
 
 
@@ -709,6 +713,9 @@ div#squ-img-ig{
 		height: 50vw;
 	}
 
+	#text-slide{
+		width: 90%;
+	}
 
 }
 
