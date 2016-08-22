@@ -1404,11 +1404,17 @@ span.caption a:hover{
 	padding-bottom: 1.5rem;
 }
 
+.teaching-text{
+		width: 100%;
+		display: flex;
+		padding-left: 2.5rem;
+		justify-content: space-between;
+}
+
 #teaching{
-	width: 100%;
-	display: flex;
-	justify-content: space-between;
-	padding-left: 2.5rem;
+	width: 48%;
+
+
 }
 
 #teaching h3{
@@ -1463,7 +1469,7 @@ span.caption a:hover{
 }
 
 #teaching>li{
-	width: 45%;
+	width: 100%;
 }
 
 #teaching>li#full{
@@ -1489,10 +1495,7 @@ span.caption a:hover{
 }
 
 #teaching-two{
-	display: flex;
-	justify-content: space-between;
-	width: 100%;
-	padding-left: 2.5rem;
+	width:48%;
 }
 
 #teaching-two-mark{
@@ -1531,7 +1534,7 @@ span.caption a:hover{
 }
 
 #teaching-two>li{
-	width: 45%;
+	width: 100%;
 }
 
 #teaching-two>li>p{
@@ -2096,9 +2099,14 @@ div#adv{
 		padding-bottom: 1rem;
 	}
 
+	.teaching-text{
+		display: inline;
+		padding: 0;
+	}
+
 	#teaching{
 		display: inline;
-		padding-left: 0;
+		width: 100%;
 	}
 
 	#teaching-two{
