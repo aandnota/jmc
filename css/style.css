@@ -1412,7 +1412,6 @@ span.caption a:hover{
 }
 
 #teaching{
-<<<<<<< HEAD
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
@@ -1420,11 +1419,7 @@ span.caption a:hover{
 	-webkit-flex-wrap: wrap;
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
-=======
 	width: 48%;
-
-
->>>>>>> origin/gh-pages
 }
 
 #teaching h3{
