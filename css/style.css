@@ -1419,7 +1419,6 @@ span.caption a:hover{
 	-webkit-flex-wrap: wrap;
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
-	width: 48%;
 }
 
 #teaching h3{
@@ -1444,7 +1443,6 @@ span.caption a:hover{
 	width: 100%;
 	padding-left: 2.5rem;
 	font-size: 1rem;
-
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
@@ -1474,15 +1472,11 @@ span.caption a:hover{
 }
 
 #teaching>li{
-<<<<<<< HEAD
-	width: 50%;
-=======
-	width: 100%;
+	width: 48%;
 }
 
 #teaching>li#full{
 	width: 100%;
->>>>>>> origin/gh-pages
 }
 
 #teaching>li>p{
@@ -1543,11 +1537,7 @@ span.caption a:hover{
 }
 
 #teaching-two>li{
-<<<<<<< HEAD
 	width: 50%;
-=======
-	width: 100%;
->>>>>>> origin/gh-pages
 }
 
 #teaching-two>li>p{
@@ -1585,7 +1575,6 @@ ul#teaching-carol.carol-bio>li{
 
 #fac-info{
 	background-color: #E6E6E6;
-
 	margin-bottom: .5rem;
 	padding: 0.5rem 1rem;
 	width: 100%;
