@@ -1365,7 +1365,7 @@ span.caption a:hover{
 .fac-img-rich{
 	width: 24vw;
 	height: 25vw;
-	background-image: url("../imgs/profile-placeholder.png");
+	background-image: url("../imgs/faculty/rich.jpg");
 	background-size: cover;
 	background-position: center center;
 }
@@ -1404,7 +1404,15 @@ span.caption a:hover{
 	padding-bottom: 1.5rem;
 }
 
+.teaching-text{
+		width: 100%;
+		display: flex;
+		padding-left: 2.5rem;
+		justify-content: space-between;
+}
+
 #teaching{
+<<<<<<< HEAD
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
@@ -1412,6 +1420,11 @@ span.caption a:hover{
 	-webkit-flex-wrap: wrap;
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
+=======
+	width: 48%;
+
+
+>>>>>>> origin/gh-pages
 }
 
 #teaching h3{
@@ -1422,6 +1435,13 @@ span.caption a:hover{
 
 #teaching-mark{
 	display: inline;
+	padding-left: 2.5rem;
+}
+
+#teaching-carol{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
 	padding-left: 2.5rem;
 }
 
@@ -1459,7 +1479,15 @@ span.caption a:hover{
 }
 
 #teaching>li{
+<<<<<<< HEAD
 	width: 50%;
+=======
+	width: 100%;
+}
+
+#teaching>li#full{
+	width: 100%;
+>>>>>>> origin/gh-pages
 }
 
 #teaching>li>p{
@@ -1469,11 +1497,19 @@ span.caption a:hover{
 	padding-top: .5rem;
 }
 
+#teaching-carol>li{
+	width: 50%;
+}
+
+#teaching-carol>li>p{
+	margin-top: .25rem;
+	font-size: 1rem;
+	margin-bottom: 0;
+	padding-top: .5rem;
+}
+
 #teaching-two{
-	display: flex;
-	justify-content: space-between;
-	width: 100%;
-	padding-left: 2.5rem;
+	width:48%;
 }
 
 #teaching-two-mark{
@@ -1512,13 +1548,21 @@ span.caption a:hover{
 }
 
 #teaching-two>li{
+<<<<<<< HEAD
 	width: 50%;
+=======
+	width: 100%;
+>>>>>>> origin/gh-pages
 }
 
 #teaching-two>li>p{
 	margin-top: .5rem;
 	font-size: 1rem;
 	margin-bottom: 0;
+}
+
+ul#teaching-title{
+	width: 100%;
 }
 
 #teaching-title>li>h2{
@@ -1530,9 +1574,23 @@ span.caption a:hover{
 	color: #444;
 }
 
+li#t-fac-info{
+	width: 30%;
+	margin-right: 2rem;
+}
+
+ul#teaching-carol.carol-bio{
+	display: inline;
+	width: 45%;
+}
+
+ul#teaching-carol.carol-bio>li{
+	width: 100%;
+}
+
 #fac-info{
 	background-color: #E6E6E6;
-	margin-left: 3rem;
+
 	margin-bottom: .5rem;
 	padding: 0.5rem 1rem;
 	width: 100%;
@@ -1740,6 +1798,8 @@ div#adv{
 	.prog-links-f>li{
 		font-size: 1rem;
 	}
+
+
 }
 
 @media (max-width: 980px) {
@@ -1881,6 +1941,14 @@ div#adv{
 	    width: 33%;
 	    padding: .5rem 0;
 	    margin: 0;
+	}
+
+	ul#teaching-carol.carol-bio{
+		width: 100%;
+	}
+
+	#fac-info{
+		font-size: 1rem;
 	}
 }
 
@@ -2036,6 +2104,124 @@ div#adv{
 		padding: .5rem 0;
 		font-size: 1.5rem;
 	}
+
+	/*FACULTY PAGES*/
+
+	#teaching-carol{
+		display: inline;
+		padding-left: 0;
+	}
+
+	#teaching-carol>li{
+		width: 100%;
+		padding-bottom: 1rem;
+	}
+
+	.teaching-text{
+		display: inline;
+		padding: 0;
+	}
+
+	#teaching{
+		display: inline;
+		width: 100%;
+	}
+
+	#teaching-two{
+		display: inline;
+		padding-left: 0;
+	}
+
+	#teaching>li{
+		width: 100%;
+		padding-bottom: 1rem;
+	}
+
+	#teaching-two>li{
+		width: 100%;
+		padding-bottom: 1rem;
+	}
+
+	#fac-info p{
+		padding-right: 1rem;
+	}
+
+	#fac-info{
+		padding: 0;
+	}
+
+	#fac-info:first-child{
+		padding-top: 0.5rem;
+	}
+
+	#fac-info:last-child{
+		padding-bottom: 0.5rem;
+	}
+
+	#fac-over-one{
+		flex-wrap: wrap;
+		flex-direction: column-reverse;
+	}
+
+	div.tab-box{
+		width: 100%;
+	}
+
+	.fac-img-carol{
+		width: 100%;
+		height: 100vw;
+		margin-bottom: 1rem;
+	}
+
+	.fac-img-alex{
+		width: 100%;
+		height: 100vw;
+		margin-bottom: 1rem;
+	}
+
+	.fac-img-tim{
+		width: 100%;
+		height: 100vw;
+		margin-bottom: 1rem;
+	}
+
+	.fac-img-betni{
+		width: 100%;
+		height: 100vw;
+		margin-bottom: 1rem;
+	}
+	.fac-img-rich{
+		width: 100%;
+		height: 100vw;
+		margin-bottom: 1rem;
+		background-position: top center;
+	}
+	.fac-img-brian{
+		width: 100%;
+		height: 100vw;
+		margin-bottom: 1rem;
+	}
+
+	.fac-img-mark{
+		width: 100%;
+		height: 100vw;
+		margin-bottom: 1rem;
+	}
+
+	.fac-img-dave{
+		width: 100%;
+		height: 100vw;
+		margin-bottom: 1rem;
+	}
+
+	.fac-img-jeff{
+		width: 100%;
+		height: 100vw;
+		margin-bottom: 1rem;
+	}
+
+
+
 }
 
 /*BIG PHONES*/
