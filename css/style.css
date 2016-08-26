@@ -1409,6 +1409,9 @@ span.caption a:hover{
 	display: flex;
 	justify-content: space-between;
 	padding-left: 2.5rem;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
 }
 
 #teaching h3{
@@ -1456,7 +1459,7 @@ span.caption a:hover{
 }
 
 #teaching>li{
-	width: 32%;
+	width: 50%;
 }
 
 #teaching>li>p{
@@ -1509,7 +1512,7 @@ span.caption a:hover{
 }
 
 #teaching-two>li{
-	width: 32%;
+	width: 50%;
 }
 
 #teaching-two>li>p{
