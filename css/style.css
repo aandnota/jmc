@@ -57,6 +57,29 @@ ul{
 	/*margin-bottom: 4rem;*/
 }
 
+.nav-span-small-aiga{
+	background-color: rgba(0,0,0,0);
+	height: 2rem;
+	padding-bottom: 1rem;
+	font-size: 16px;
+	/*margin-bottom: 4rem;*/
+}
+
+.top-o-aiga a{
+	color: #999999;
+}
+
+.top-o-aiga {
+/*	padding-top: .25rem;*/
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.top-o-aiga>ul{
+	font-family: "brandon grotesque", "Source Sans Pro", sans-serif;
+	list-style-type: none;
+}
 
 .top-o {
 /*	padding-top: .25rem;*/
@@ -579,8 +602,8 @@ ul#tab li section>p{
 }
 
 .fac-profiles-gde img:hover{
-	filter: hue-rotate(0);
-	-webkit-filter:   hue-rotate(0);
+	filter: grayscale(0);
+	-webkit-filter: grayscale(0);
 }
 
 .fac-profiles-gde>li>a{

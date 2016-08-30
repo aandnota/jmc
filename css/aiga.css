@@ -1,0 +1,30 @@
+.aiga-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aiga-sub-title{
+  margin-top: 1rem;
+}
+
+.aiga-sub-title h1{
+  font-size: 20vw;
+  margin: 0;
+  line-height: 15vw;
+}
+
+.aiga-sub-title h2{
+  margin: 0;
+  font-weight: 400;
+  font-size: 6vw;
+  line-height: 5vw;
+}
+
+.aiga-sub-title h3{
+  margin: 0;
+  font-style: italic;
+  font-size: 3vw;
+  font-weight: 300;
+  line-height: 2.5vw;
+}
