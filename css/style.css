@@ -1772,6 +1772,11 @@ div#adv{
 	font-weight: 600;
 }
 
+#track-courses li>p{
+	font-style: italic;
+	font-weight: 400;
+}
+
 #track-or{
 	padding-top: .5rem;
 	font-style: italic;
