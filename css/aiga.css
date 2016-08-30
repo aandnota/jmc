@@ -2,13 +2,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .aiga-sub-title{
-  margin-top: 1rem;
+  margin: 2rem auto;
+  width: 50vw;
 }
 
 .aiga-sub-title h1{
+  font-family: "Roboto Slab", serif;
   font-size: 20vw;
   margin: 0;
   line-height: 15vw;
@@ -17,14 +20,25 @@
 .aiga-sub-title h2{
   margin: 0;
   font-weight: 400;
-  font-size: 6vw;
+  font-size: 3.1vw;
   line-height: 5vw;
 }
 
-.aiga-sub-title h3{
-  margin: 0;
-  font-style: italic;
+.next-meeting{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.day-time h1{
   font-size: 3vw;
+  font-style: italic;
   font-weight: 300;
-  line-height: 2.5vw;
+  margin-top: .5rem;
+}
+
+.day-time h2{
+  font-size: 2vw;
+  color: #ff6666;
+  margin-bottom: .5rem;
 }
