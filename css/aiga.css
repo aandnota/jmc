@@ -3,6 +3,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+  margin-top: 2rem;
 }
 
 .aiga-sub-title{
@@ -41,4 +42,19 @@
   font-size: 2vw;
   color: #ff6666;
   margin-bottom: .5rem;
+}
+
+.advisors{
+  width: 100%;
+  text-align: center;
+}
+
+.advisors-names{
+  display: flex;
+  width: 100%;
+}
+
+.name{
+  width: 49%;
+  margin: 0;
 }
