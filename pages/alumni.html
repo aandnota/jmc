@@ -9,23 +9,18 @@
 
 	<link rel="stylesheet" href="../css/style.css">
 	<link rel="stylesheet" href="../css/alt-style.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
 </head>
 	<body>
-		<div class="nav-span-small">
-			<nav class="top-o content">
-				<ul id="dept-title-small">
-					<li><a href="../index.html">JM&amp;C</a></li>
-				</ul>
-				<ul id="dept-title-mobile">
-					<li><a href="../index.html">JM&amp;C</a></li>
-				</ul>
-				<ul class="nav-links-little-o">
-					<li id="nav-link"><a href="majors.html" title="Majors">Majors</a></li>
-					<li id="nav-link"><a href="prospective.html" title="Prospective Students">Prospective Students</a></li>
-					<li id="nav-link"><a href="life.html" title="Life at JMC">Life@JMC</a></li>
-				</ul>
-			</nav>
+		<div id="nav-small">
+
 		</div>
+
+		<script type="text/javascript">
+			$("#nav-small").load("nav/nav.html .nav-span-small");
+		</script>
 
 		<section class="banner-image-alumni">
 			<div class="banner-text">
