@@ -11,20 +11,8 @@
 
 </head>
 <body>
-	<div class="nav-span-small">
-		<nav class="top-o content">
-			<ul id="dept-title-small">
-				<li><a href="../index.html">JM&amp;C</a></li>
-			</ul>
-			<ul id="dept-title-mobile">
-				<li><a href="../index.html">JM&amp;C</a></li>
-			</ul>
-			<ul class="nav-links-little-o">
-				<li id="nav-link"><a href="majors.html" title="Majors">Majors &amp; Minors</a></li>
-				<li id="nav-link"><a href="prospective.html" title="Prospective Students">Prospective Students</a></li>
-				<li id="nav-link"><a href="life.html" title="Life at JMC">Life@JMC</a></li>
-			</ul>
-		</nav>
+	<div id="nav-small">
+
 	</div>
 
 	<section class="page-title-f">
@@ -410,22 +398,12 @@
 		</div>
 	</section>
 
-	<footer class="footer-alt">
-		<div class="content">
-			<ul class="footer-nav-alt">
-				<li><a href="#">Request Info</a></li>
-				<li><a href="#">News</a></li>
-				<li><a href="#">Visit</a></li>
-				<li><a href="#">Calendar</a></li>
-				<li><a href="#">Apply</a></li>
-				<li><a href="#">View Work</a></li>
-				<li><a href="#">Creightonian</a></li>
-			</ul>
-		</div>
-	</footer>
+	<div id="footer"></div>
 
 <!-- SCRIPTS -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script src="../js/script.js"></script>
+	<script>$("#nav-small").load("nav/nav.html .nav-span-small")</script>
+	<script>$("#footer").load("nav/footer.html .footer-alt")</script>
 </body>
 </html>

@@ -252,6 +252,7 @@ ul{
 
 .page-title-f{
 	background-color: #4A90E2;
+	padding-bottom: .75rem;
 }
 
 .page-title-f h1{
@@ -1683,6 +1684,20 @@ ul#teaching-carol.carol-bio>li{
 
 	margin-top: 0.75rem;
 	margin-bottom: 0.75rem;
+}
+
+#jrm-desc-header>h3{
+	color: #333333;
+	font-weight: 300;
+	font-size: 1.75rem;
+	margin: 0;
+}
+
+#fineprint{
+	color: #5c5c5c;
+	font-weight: 300;
+	font-size: .75rem;
+	font-style: italic;
 }
 
 #news{
