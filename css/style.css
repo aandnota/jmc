@@ -189,11 +189,10 @@ ul{
 	padding-top: 1rem;
 }
 
-
 .nav-links-little-o{
 	display: flex;
 	width: 50%;
-	justify-content: flex-end;
+	justify-content: space-between;
 }
 
 #nav-link{
