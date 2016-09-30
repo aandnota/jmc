@@ -677,6 +677,19 @@ ul#tab li section>p{
 	align-items: flex-end;
 }
 
+#img-four{
+	width: 100vw;
+	height: 35vw;
+	background-image: url('../imgs/');
+	background-size: cover;
+
+	background-color: #4A90E2;
+	background-blend-mode: multiply;
+
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
 
 .slider-big{
 	background-color: #4A90E2;
