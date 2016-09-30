@@ -14,14 +14,24 @@ $(document).ready(function() {
 	$(window).scroll(function() {
 		if($(document).scrollTop() > 50) {
 			$('.nav-span').css({
-				'background-color': '#191919',
-				'background-image': 'url(imgs/ccas-seal.png)',
+				'display': 'none'
+			}),
+			$('#nav-small').load("pages/nav/nav.html .nav-span-small"),
+			$('#nav-small').css({
+				'display':'inline',
+				'position': 'fixed',
+				'z-index':'3',
+				'width':'100vw'
 			});
 		} else {
 			$('.nav-span').css({
+				'display':'inline',
 				'background-color': 'transparent',
 				'background-image': 'none'
-			});;
+			}),
+			$('#nav-small').css({
+				'display':'none'
+			});
 		}
 	});
 
