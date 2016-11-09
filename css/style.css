@@ -1817,6 +1817,7 @@ div#adv{
 #minor-select{
 	font-style: italic;
 	padding: 1rem 0;
+	font-weight: 700;
 }
 
 /*RESPONSIVE TWEAKS*/
