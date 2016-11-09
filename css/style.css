@@ -208,6 +208,10 @@ ul{
 	display: none;
 }
 
+.form-center{
+	margin: 0 auto;
+}
+
 
 /*FACULTY-O SPECIFIC STUFF*/
 .page-title{
