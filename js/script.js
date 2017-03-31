@@ -12,11 +12,11 @@ $(document).ready(function() {
 	});
 
 	$(window).scroll(function() {
-		if($(document).scrollTop() > 70) {
+		if($(document).scrollTop() > 50) {
 			$('.nav-span').css({
 				'display': 'none'
 			}),
-			$('#nav-small').load("pages/nav/nav.html .nav-span-small"),
+			$('#nav-small').load("nav/nav.html .nav-span-small"),
 			$('#nav-small').css({
 				'display':'inline',
 				'position': 'fixed',
@@ -26,11 +26,11 @@ $(document).ready(function() {
 		} else {
 			$('.nav-span').css({
 				'display':'inline',
-				'background-color': 'transparent',
-				'background-image': 'none'
+				'position':'relative',
+				'width' : '100vw'
 			}),
 			$('#nav-small').css({
-				'display':'none'
+				'display':'inline'
 			});
 		}
 	});
