@@ -16,7 +16,7 @@ $(document).ready(function() {
 			$('.nav-span').css({
 				'display': 'none'
 			}),
-			$('#nav-small').load("nav/nav.html .nav-span-small"),
+			$('#nav-small').load("pages/nav/nav.html .nav-span-small"),
 			$('#nav-small').css({
 				'display':'inline',
 				'position': 'fixed',
