@@ -11,30 +11,6 @@ $(document).ready(function() {
 		$('.nav-links-fac').toggleClass('menu-show-hide');
 	});
 
-	$(window).scroll(function() {
-		if($(document).scrollTop() > 50) {
-			$('.nav-span').css({
-				'display': 'none'
-			}),
-			$('#nav-small').load("pages/nav/nav.html .nav-span-small"),
-			$('#nav-small').css({
-				'display':'inline',
-				'position': 'fixed',
-				'z-index':'3',
-				'width':'100vw'
-			});
-		} else {
-			$('.nav-span').css({
-				'display':'inline',
-				'position':'relative',
-				'width' : '100vw'
-			}),
-			$('#nav-small').css({
-				'display':'inline'
-			});
-		}
-	});
-
 	$(".toggle").click(function() {
 		$("#x-alu").toggle('500');
 	});
