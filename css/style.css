@@ -1420,6 +1420,14 @@ span.caption a:hover{
 	background-position: center top;
 }
 
+.fac-img-peggy{
+	width: 24vw;
+	height: 25vw;
+	background-image: url("../imgs/faculty/peggy.jpg");
+	background-size: cover;
+	background-position: center top;
+}
+
 .fac-img-dave{
 	width: 24vw;
 	height: 25vw;
