@@ -644,7 +644,7 @@ ul#tab li section>p{
 #img-one{
 	width: 100vw;
 	height: 35vw;
-	background-image: url('../imgs/eldeportado-2.jpg');
+	background-image: url('../imgs/mark-memorial.png');
 	background-size: cover;
 
 	background-color: #4A90E2;
@@ -686,7 +686,7 @@ ul#tab li section>p{
 #img-four{
 	width: 100vw;
 	height: 35vw;
-	background-image: url('../imgs/');
+	background-image: url('../imgs/prssa-logo.png');
 	background-size: cover;
 
 	background-color: #4A90E2;
@@ -717,7 +717,7 @@ span.caption{
 span.caption h2{
 	font-style: italic;
 	font-weight: 400;
-	font-size: 3rem;
+	font-size: 2rem;
 
 	margin-top: 0;
 	margin-bottom: 0;
@@ -741,7 +741,7 @@ span.caption a{
 }
 
 span.caption a:hover{
-	color:#4A90E2;
+	color:#fff;
 	text-decoration: underline;
 }
 
