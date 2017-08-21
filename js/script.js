@@ -11,6 +11,24 @@ $(document).ready(function() {
 		$('.nav-links-fac').toggleClass('menu-show-hide');
 	});
 
+	$(window).scroll(function() {
+		if($(document).scrollTop() > 50) {
+			$('.nav-span').css({
+				'background-color': '#191919',
+				'background-image': 'url(imgs/ccas-seal.png)',
+			});
+		} else {
+			$('.nav-span').css({
+				'display':'inline',
+				'position':'fixed',
+				'width' : '100vw'
+			}),
+			$('#nav-span-small').css({
+				'display':'inline'
+			});
+		}
+	});
+
 	$(".toggle").click(function() {
 		$("#x-alu").toggle('500');
 	});
