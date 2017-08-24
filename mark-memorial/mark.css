@@ -1,0 +1,43 @@
+body{
+  background-color: #1b1b1b;
+  font-family: "Brandon Grotesque", sans-serif;
+}
+
+.mark-img{
+  width: 80vw;
+  margin: 2rem auto;
+
+  display: flex;
+
+  background-color: #fff;
+}
+
+.mark-img-bx{
+  width: 50%;
+}
+
+.mark-img-bx>img{
+  width: 100%;
+}
+
+.mark-text{
+  width: 49%;
+}
+
+.mark-text h2{
+  font-weight: 300;
+  font-style: italic;
+}
+
+.mark-text h1{
+  font-size: 4.5rem;
+  line-height: 2.5rem;
+  font-weight: 300;
+  margin: 0;
+}
+
+.mark-text h4{
+  font-weight: 300;
+  font-size: 1.5rem;
+  margin: 1.5rem 0;
+}
