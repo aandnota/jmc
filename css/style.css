@@ -558,6 +558,7 @@ ul#tab li section>p{
 
 #adj{
 	justify-content: flex-start;
+	flex-wrap: wrap;
 }
 
 
@@ -585,6 +586,11 @@ ul#tab li section>p{
 .fac-profiles>li>a>p {
 	margin-top: .25rem;
 	margin-bottom: .25rem;
+}
+
+#adj>li{
+	width: 25%;
+	padding: 0 0 2rem 0;
 }
 
 /*THREES*/
