@@ -217,23 +217,30 @@ ul{
 
 /*FACULTY-O SPECIFIC STUFF*/
 .page-title{
-	background-color: #4A90E2;
+	background-color: #fff;
+}
 
+#pg-ti{
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem 0;
 }
 
 .page-title h1{
 	font-style: italic;
 	font-weight: 400;
-	color: #fff;
+	color: #000;
 	font-size: 3rem;
 	margin: 0;
-	padding: 1rem 0;
-	width: 60%;
+	justify-content: flex-end;
+	display: flex;
 }
 
 .page-title a{
 	text-decoration: none;
-	color: #fff;
+	color: #000;
+	font-weight: 300;
 }
 
 .page-title a:hover{
@@ -317,10 +324,9 @@ ul{
 
 .prof{
 	display: flex;
-	justify-content: flex-end;
-	width: 40%;
-	padding-left: 0;
-	padding-top: 1.25rem;
+	justify-content: center;
+	align-content: center;
+	padding: 0;
 }
 
 .prof>li>h2{
@@ -1240,22 +1246,28 @@ span.caption a:hover{
 	display: flex;
 	margin-top: 6rem;
 	padding-bottom: 6rem;
+	font-size: 3rem;
 }
 
 .footer-nav-alt{
 	width: 100%;
-	display: flex;
+	/*display: flex;*/
 	justify-content: space-between;
 	flex-wrap: wrap;
 }
 
 .footer-nav-alt li{
-	font-size: .75rem;
+	font-size: 3rem;
+	color: #ececec;
 }
 
 .footer-nav-alt a{
 	text-decoration: none;
-	color: #4C4C4C;
+	color: #ececec;
+}
+
+.footer-nav-alt a:hover{
+	color: #0080FF;
 }
 
 .footer-nav>li:first-child{
@@ -1309,7 +1321,7 @@ span.caption a:hover{
 /*FACULTY PAGES*/
 
 .fac-over-one{
-	background-color: #B9B9B9;
+	/*background-color: #B9B9B9;*/
 	background-image: url("../imgs/ccas-seal.png");
 	background-size: cover;
 	background-position: center center;
@@ -1444,6 +1456,14 @@ span.caption a:hover{
 	background-position: center top;
 }
 
+.fac-img-catie{
+	width: 24vw;
+	height: 25vw;
+	background-image: url("../imgs/faculty/catie.jpg");
+	background-size: cover;
+	background-position: center top;
+}
+
 .fac-img-mark{
 	width: 24vw;
 	height: 25vw;
@@ -1457,7 +1477,7 @@ span.caption a:hover{
 }
 
 .fac-over-two{
-	background-color: #CCCCCC;
+	/*background-color: #CCCCCC;*/
 	padding-top: 1rem;
 	padding-bottom: 1.5rem;
 }
@@ -1479,10 +1499,21 @@ span.caption a:hover{
 	flex-wrap: wrap;
 }
 
+#jeff{
+	column-count: 2;
+	column-gap: normal;
+}
+
 #teaching h3{
 	font-style: italic;
 	font-weight: 300;
 	font-size: 1.5rem;
+}
+
+#teaching h2{
+	font-style: italic;
+	font-weight: 300;
+	font-size: 2rem;
 }
 
 #teaching-mark{
@@ -1507,11 +1538,12 @@ span.caption a:hover{
 }
 
 #teach-awards>li{
-	width: 49%;
+	width: 100%;
 }
 
 #teach-awards p{
 	margin-bottom: 0;
+	font-size: 1.25rem;
 }
 
 #teach-awards-brian{
@@ -1530,7 +1562,7 @@ span.caption a:hover{
 }
 
 #teaching>li{
-	width: 48%;
+	width: 100%;
 }
 
 #teaching>li#full{
@@ -1539,18 +1571,19 @@ span.caption a:hover{
 
 #teaching>li>p{
 	margin-top: .25rem;
-	font-size: 1rem;
+	font-size: 1.25rem;
 	margin-bottom: 0;
 	padding-top: .5rem;
 }
 
 #teaching-carol>li{
-	width: 50%;
+	width: 100%;
+	column-count: 2;
 }
 
 #teaching-carol>li>p{
 	margin-top: .25rem;
-	font-size: 1rem;
+	font-size: 1.25rem;
 	margin-bottom: 0;
 	padding-top: .5rem;
 }
@@ -1624,7 +1657,7 @@ li#t-fac-info{
 
 ul#teaching-carol.carol-bio{
 	display: inline;
-	width: 45%;
+	width: 100%;
 }
 
 ul#teaching-carol.carol-bio>li{
@@ -1632,14 +1665,17 @@ ul#teaching-carol.carol-bio>li{
 }
 
 #fac-info{
-	background-color: #E6E6E6;
+	/*background-color: #E6E6E6;*/
 	margin-bottom: .5rem;
 	padding: 0.5rem 1rem;
-	width: 100%;
+	width: 60%;
 	text-align: right;
 	font-weight: 700;
 	font-style: italic;
-	font-size: 1.2rem;
+	font-size: 2.5rem;
+
+	display: flex;
+	flex-direction: column;
 }
 
 #fac-info p{
@@ -1651,13 +1687,13 @@ ul#teaching-carol.carol-bio>li{
 }
 
 .fac-over-three{
-	background-color: #D6D6D6;
+	/*background-color: #D6D6D6;*/
 	padding-top: 1rem;
 	padding-bottom: 1.5rem;
 }
 
 .fac-over-four{
-	background-color: #E6E6E6;
+	/*background-color: #E6E6E6;*/
 	padding-top: 1rem;
 	padding-bottom: 1.5rem;
 }
@@ -2008,10 +2044,6 @@ div#adv{
 		font-size: 1.5rem;
 	}
 
-	.prof{
-		padding-top: 1.25rem;
-	}
-
 	ul#tab li section > p {
 	    width: 33%;
 	    padding: .5rem 0;
@@ -2269,7 +2301,7 @@ div#adv{
 		width: 100%;
 		height: 100vw;
 		margin-bottom: 1rem;
-		background-position: top center;
+		background-position: bottom;
 	}
 	.fac-img-brian{
 		width: 100%;
