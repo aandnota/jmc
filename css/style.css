@@ -653,7 +653,7 @@ ul#tab li section>p{
 /*START LANDING PAGE STUFF*/
 
 /*IMAGE CAROUSEL*/
-#img-one{
+.banner-imgs{
 	width: 100vw;
 	height: 35vw;
 	background-image: url('../imgs/mark-memorial.png');
@@ -667,46 +667,28 @@ ul#tab li section>p{
 	align-items: flex-end;
 }
 
+#img-one{
+	background-image: url('../imgs/catie-banner.png');
+}
+
 #img-two{
-	width: 100vw;
-	height: 35vw;
-	background-image: url('../imgs/joanyambing.png');
-	background-size: cover;
-
-	background-color: #4A90E2;
-	background-blend-mode: multiply;
-
-	display: flex;
-	justify-content: center;
-	align-items: flex-end;
+	background-image: url('../imgs/mark-memorial.png');
 }
 
 #img-three{
-	width: 100vw;
-	height: 35vw;
 	background-image: url('../imgs/creightonian.png');
-	background-size: cover;
-
-	background-color: #4A90E2;
-	background-blend-mode: multiply;
-
-	display: flex;
-	justify-content: center;
-	align-items: flex-end;
 }
 
 #img-four{
-	width: 100vw;
-	height: 35vw;
 	background-image: url('../imgs/prssa-logo.png');
-	background-size: cover;
+}
 
-	background-color: #4A90E2;
-	background-blend-mode: multiply;
+#img-five{
+	background-image: url('../imgs/brian-taiwan.png');
+}
 
-	display: flex;
-	justify-content: center;
-	align-items: flex-end;
+#img-six{
+	background-image: url('../imgs/caitie-banner.png');
 }
 
 .slider-big{
