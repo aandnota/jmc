@@ -1809,6 +1809,10 @@ div#adv{
 	padding: .5rem;
 }
 
+#gde-track-courses>li{
+	padding-bottom: .5rem;
+}
+
 #gde-track-courses h3{
 	font-weight: 300;
 	color: #4A90E2;
