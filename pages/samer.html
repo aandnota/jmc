@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<!-- META -->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Assistant Professor Samer Al-Khateeb, Ph.D.</title>
+
+		<!-- CSS -->
+    	<link rel="stylesheet" href="../css/style.css">
+
+		<!-- JS -->
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+	</head>
+
+	<body>
+		<div class="nav-span-small">
+		<nav class="top-o content">
+			<ul id="dept-title-small">
+				<li><a href="../index.html">JM&amp;C</a></li>
+			</ul>
+			<ul id="dept-title-mobile">
+				<li><a href="../index.html">JM&amp;C</a></li>
+			</ul>
+			<ul class="nav-links-little-o">
+				<li id="nav-link"><a href="majors.html" title="Majors">Majors &amp; Minors</a></li>
+				<li id="nav-link"><a href="prospective.html" title="Prospective Students">Prospective Students</a></li>
+				<li id="nav-link"><a href="life.html" title="Life at JMC">Life@JMC</a></li>
+			</ul>
+		</nav>
+	</div>
+
+		<section class="page-title">
+			<div class="content" id="pg-ti">
+				<h3><a href="faculty-o.html">Faculty - Computer Science and Informatics</a></h3>
+				<ul class="prof">
+					<li><h2>Samer Al-Khateeb, Ph.D.</h2></li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="fac-over-one">
+			<div class="content" id="fac-over-one">
+				<div class="fac-img-samer">
+					<!-- <img src="../imgs/faculty/alex.jpg" alt=""> -->
+				</div>
+				<div id="fac-info">
+					<p><a href="mailto:sameral-khateeb1@creighton.edu" title="">sameral-khateeb1@creighton.edu</a></p>
+					<p>Office 402-280-5022</p>
+					<p>HCCA 203A</p>
+				</div>
+			</div>
+		</section>
+
+		<section class="fac-over-two">
+			<div class="content">
+				<ul id="teaching-title">
+					<li><h2>Teaching Statement</h2></li>
+				</ul>
+				<ul id="teaching">
+					<li>
+						<p>
+						I enjoy teaching and sharing knowledge that I have gained during my interdisciplinary studies. Having degrees in Computer Science and Information Science with a background in Mechatronics Engineering and Physics has always helped me understand challenging concepts and theories. This interdisciplinary background also helped me during my teaching career. I believe people have a different level of knowledge as well as different backgrounds and this is where my interdisciplinary background would help. It enables me to explain concepts and theories to students with various academic backgrounds as I can relate some of these concepts to their field of study when possible.
+						</p>
+						<p>
+						The one practice that I have found that is key to successfully conveying the material is to provide small, workable examples to the students. My teaching philosophy is that students only learn by doing, and this has motivated my teaching style. I also believe that teachers should adopt the paradigm of teaching that encourages building a community-like environment by building positive relationships between the teachers and the students. The community should encourage student participation and student collaboration in a cooperative context instead of a competitive context. I thoroughly enjoy teaching! I love to find new ways to explain topics so that everyone can understand. When I teach, I think, and I learn more than my students.						
+						</p>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="fac-over-three">
+			<div class="content">
+				<ul id="teaching-title">
+					<li><h2>Biography</h2></li>
+				</ul>
+				<ul id="teaching">
+					<li>
+						<p>
+						Samer Al-khateeb moved from Baghdad, Iraq to the USA in 2009 to pursue a bachelor’s degree in Computer Science from the University of Arkansas at Little Rock (UA-Little Rock). After graduating he found himself love teaching and doing research so he decided to finish his master’s in Applied Science and then obtained his Ph.D. in Computer and Information Sciences from the same school. He is a former Postdoctorate Research Fellow at the Collaboratorium for Social Media and Online Behavioral Studies (COSMOS) at UA-Little Rock. He studies deviant acts (e.g., deviant cyber flash mobs, cyber propaganda campaigns, and fake news dissemination) on social media that are conducted by deviant groups (e.g., Daesh, Black-hat hackers, and Propagandist) which aim to influence individual’s behaviors and provoke hysteria among citizens. In addition to that, he studies the type of actors these deviant groups use to perform their acts, i.e., are they human (e.g., internet trolls) or automated actors (e.g., social bots) by leveraging social science theories (e.g., the theory of collective action), social network analysis (e.g., centralities and community detection algorithms), and social cyber forensics (e.g., metadata collection to uncover the hidden relations among these actors across platforms). 
+						</p>
+						<p>
+						 He has more than 20 publications including three book chapters, five journal papers (Journal of Defence Strategic Communications; Journal of Digital Forensics, Security, and Law; Journal of Baltic Security; and the IARIA International Journal on Advances in Internet Technology), and seventeen conferences proceedings/presentations. He won various awards such as the Staff Achievement Award for Educational Achievements, Excellence in Research Award, Outstanding Graduating Student Award (Master's Level), Who’s Who Among Students in American Universities and Colleges, the Best Paper Award, 2nd Place Most Innovative Award, and 2nd Place Societal Impact Award.
+						</p>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+	<footer class="footer-alt">
+		<div class="content">
+			<ul class="footer-nav-alt">
+				<li><a href="">Request Info</a></li>
+				<li><a href="">News</a></li>
+				<li><a href="">Visit</a></li>
+				<li><a href="">Calendar</a></li>
+				<li><a href="">Apply</a></li>
+				<li><a href="">View Work</a></li>
+				<li><a href="">Creightonian</a></li>
+			</ul>
+		</div>
+	</footer>
+
+		<script type="text/javascript">
+			$(document).ready(function(){
+			    $("ul#tabs li").click(function(e){
+			        if (!$(this).hasClass("active")) {
+			            var tabNum = $(this).index();
+			            var nthChild = tabNum+1;
+			            $("ul#tabs li.active").removeClass("active");
+			            $(this).addClass("active");
+			            $("ul#tab li.active").removeClass("active");
+			            $("ul#tab li:nth-child("+nthChild+")").addClass("active");
+			        }
+			    });
+			});
+		</script>
+
+	</body>
+</html>
