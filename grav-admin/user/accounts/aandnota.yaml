@@ -1,0 +1,11 @@
+email: alexmyers@creighton.edu
+fullname: 'Alex Myers'
+title: Admin
+state: enabled
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+hashed_password: $2y$10$DMO2zKmIcmxPlcjvFgecweLEUiFwzSB.9ddB6SxSnxp.X11DPzvti
