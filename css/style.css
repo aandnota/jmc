@@ -655,7 +655,7 @@ ul#tab li section>p{
 /*IMAGE CAROUSEL*/
 .banner-imgs{
 	width: 100vw;
-	height: 35vw;
+	height: 50vw;
 	background-image: url('../imgs/mark-memorial.png');
 	background-size: cover;
 
@@ -665,9 +665,7 @@ ul#tab li section>p{
 }
 
 #img-one{
-	background: 
-	linear-gradient(-45deg, rgba(229,93,135,.7), rgba(95,195,228,.7) 70%),
-	url('../imgs/catie-banner.jpg');
+	background-image:url('../imgs/pb/pb.jpg');
 }
 
 #img-two{
